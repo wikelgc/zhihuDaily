@@ -1,5 +1,6 @@
 html{
-	font-size: 125%;
+	font-size: 20px;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	/*font-family: "微软雅黑";*/
 }
 
@@ -9,21 +10,4 @@ html{
 
 .fr{
 	float: right;
-}
-.fontf{
-	/*font-family: '微软雅黑';*/
-}
-
-.main-wrap{
-	position: relative;
-}
-.headline, .img-place-holder{
-
-	height: 0;
-	overflow: hidden;
-		z-index: 1000;
-}
-.onlyheading {
-	border-bottom: none;
-	height: 50px;
 }

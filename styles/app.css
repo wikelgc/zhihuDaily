@@ -15,3 +15,17 @@
 
 }
 
+.main-wrap{
+	position: relative;
+}
+.headline, .img-place-holder{
+
+	height: 0;
+	overflow: hidden;
+		z-index: 1000;
+}
+.onlyheading {
+	border-bottom: none;
+	height: 50px;
+}
+
