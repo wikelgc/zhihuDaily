@@ -13,8 +13,17 @@ html{
 .fontf{
 	/*font-family: '微软雅黑';*/
 }
+
+.main-wrap{
+	position: relative;
+}
 .headline, .img-place-holder{
-	/*background-color:rgba(0,0,0,0.1);*/
-	z-index: -1000;
+
 	height: 0;
+	overflow: hidden;
+		z-index: 1000;
+}
+.onlyheading {
+	border-bottom: none;
+	height: 50px;
 }
